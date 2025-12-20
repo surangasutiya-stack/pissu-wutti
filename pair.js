@@ -75,16 +75,16 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "ZANTA-XMD=" + string_session;
+                        let md = "VAJIRA-MD=" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! 𝚄𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚝𝚘 𝚌𝚛𝚎𝚊𝚝𝚎 𝚉𝙰𝙽𝚃𝙰-𝚇𝙼𝙳 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝚄𝚜𝚎𝚛 𝚋𝚘𝚝.*\n\n ◦ *Github:* https://github.com/`; 
+                        let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! 𝚄𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚝𝚘 𝚌𝚛𝚎𝚊𝚝𝚎 𝚅𝙰𝙹𝙸𝚁𝙰-𝙼𝙳 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝚄𝚜𝚎𝚛 𝚋𝚘𝚝.*\n\n ◦ *Github:* https://github.com/cyber-adhi-ofc/VAJIRA-MD`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᴢᴀɴᴛᴀ-xᴍᴅ",
-thumbnailUrl: "https://files.catbox.moe/ydaefv.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbBNZJcAzNbvfssOXP28",
+title: "ᴠᴀᴊɪʀᴀ-ᴍᴅ",
+thumbnailUrl: "https://telegra.ph/file/e069027c2178e2c7475c9.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VahMZasD8SE5GRwzqn3Z",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -93,14 +93,14 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! 𝚄𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚝𝚘 𝚌𝚛𝚎𝚊𝚝𝚎 𝚉𝙰𝙽𝚃𝙰-𝚇𝙼𝙳 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝚄𝚜𝚎𝚛 𝚋𝚘𝚝.*\n\n ◦ *Github:* https://github.com`;
+                            let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! 𝚄𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚝𝚘 𝚌𝚛𝚎𝚊𝚝𝚎 𝚅𝙰𝙹𝙸𝚁𝙰-𝙼𝙳 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝚄𝚜𝚎𝚛 𝚋𝚘𝚝.*\n\n ◦ *Github:* https://github.com/cyber-adhi-ofc/VAJIRA-MD`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᴢᴀɴᴛᴀ-xᴍᴅ",
-thumbnailUrl: "https://files.catbox.moe/ydaefv.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbBNZJcAzNbvfssOXP28",
+title: "ᴠᴀᴊɪʀᴀ-ᴍᴅ",
+thumbnailUrl: "https://telegra.ph/file/e069027c2178e2c7475c9.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VahMZasD8SE5GRwzqn3Z",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
